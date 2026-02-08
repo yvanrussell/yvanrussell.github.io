@@ -6,8 +6,6 @@
   <style>
     * { box-sizing: border-box; }
     
-    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-    
     body { 
       font-family: "Segoe UI", Arial, sans-serif;
       color: #f5f5f5;
@@ -19,11 +17,11 @@
       min-height: 100vh;
     }
     
-    .domain-artistic {
-      font-family: 'Great Vibes', cursive;
-      font-size: 6rem;
-      color: #5A6A6A;
-      margin-bottom: 0.5rem;
+    .handwritten-logo {
+      width: clamp(300px, 65vw, 500px);
+      height: auto;
+      margin-bottom: 1rem;
+      opacity: 0.85;
     }
     
     .content-box {
@@ -70,12 +68,11 @@
         max-width: 280px;
         width: 90%;
       }
-      .domain-artistic { font-size: 4rem; }
     }
   </style>
 </head>
 <body>
-  <div class="domain-artistic">yvan.rs</div>
+  <img src="yvanrs-handwritten.png" alt="yvan.rs" class="handwritten-logo">
   
   <div class="content-box">
     <h1>Dr. Yvan I. Russell</h1>
