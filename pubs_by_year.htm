@@ -17,12 +17,15 @@
       min-height: 100vh;
     }
     
-img.handwritten-logo {  /* More specific selector */
-  width: clamp(380px, 70vw, 550px) !important;  /* Slightly bigger clamp */
+.handwritten-logo {
+  width: clamp(300px, 65vw, 500px) !important;
   height: auto !important;
-  margin-bottom: 1rem !important;
+  margin: 0 auto 1rem !important;
   opacity: 0.85 !important;
-  min-width: 380px !important;  /* Prevents shrink */
+  display: block !important;
+  position: relative !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;  /* Bulletproof center */
 }
     
     .content-box {
