@@ -18,10 +18,13 @@
     }
     
 .handwritten-logo {
-  width: clamp(300px, 65vw, 500px);
-  height: auto;
-  margin-bottom: 1rem;
-  opacity: 0.85;
+  width: 500px !important;
+  height: 119px !important;      /* Exact match */
+  margin: 0 auto 1rem !important;
+  opacity: 0.85 !important;
+  display: block !important;
+  max-width: 85vw !important;    /* Phone scales down */
+  max-height: 150px !important;  /* Responsive safety */
 }
     
     .content-box {
@@ -74,9 +77,7 @@
 
 <body>
   <center></center><img src="yvanrs-handwritten.png" alt="yvan.rs" class="handwritten-logo"></center>
-  <div class="content-box">
-
-  </div>
+  
 
   
   <div class="content-box">
