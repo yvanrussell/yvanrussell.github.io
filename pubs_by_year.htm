@@ -17,11 +17,12 @@
       min-height: 100vh;
     }
     
-.handwritten-logo {
-  width: clamp(420px, 75vw, 620px) !important; 
+img.handwritten-logo {  /* More specific selector */
+  width: clamp(380px, 70vw, 550px) !important;  /* Slightly bigger clamp */
   height: auto !important;
   margin-bottom: 1rem !important;
   opacity: 0.85 !important;
+  min-width: 380px !important;  /* Prevents shrink */
 }
     
     .content-box {
