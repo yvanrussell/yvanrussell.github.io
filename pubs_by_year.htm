@@ -5,6 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     * { box-sizing: border-box; }
+
+/* Back-to-top button */
+.back-to-top {
+position: fixed;
+right: 20px; /* distance from right edge — change to center with left:50% transform if you prefer */
+bottom: 20px; /* distance from bottom */
+z-index: 9999;
+background: rgba(74,85,104,0.95); /* matches your link boxes */
+color: #20B2AA; /* link colour for text */
+padding: 0.45rem 0.75rem;
+border-radius: 8px;
+text-decoration: none;
+font-weight: 600;
+box-shadow: 0 4px 10px rgba(0,0,0,0.35);
+transition: transform 140ms ease, opacity 140ms ease;
+opacity: 0.95;
+}
+.back-to-top:hover {
+transform: translateY(-3px);
+opacity: 1;
+}
+@media (max-width: 480px) {
+.back-to-top { right: 12px; bottom: 12px; padding: 0.4rem 0.6rem; font-size: 0.95rem; }
+}
     
     body { 
       font-family: "Segoe UI", Arial, sans-serif;
@@ -79,7 +103,8 @@ width: 100%;
   </style>
 </head>
 
-<body>
+<body><body id="top">
+  
   <center></center><img src="yvanrs-handwritten.png" alt="yvan.rs" class="handwritten-logo"></center>
   
 
@@ -245,5 +270,6 @@ width: 100%;
 </div>
   </div>
   <div class="bottom-spacer" aria-hidden="true"></div>
+  <a href="#top" class="back-to-top" aria-label="Back to top">Top ↑</a>
 </body>
 </html>
