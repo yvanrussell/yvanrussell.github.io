@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>yvan.rs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * { box-sizing: border-box; }
+
+/* Back-to-top button */
+.back-to-top {
+position: fixed;
+right: 20px; /* distance from right edge — change to center with left:50% transform if you prefer */
+bottom: 20px; /* distance from bottom */
+z-index: 9999;
+background: rgba(74,85,104,0.95); /* matches your link boxes */
+color: #20B2AA; /* link colour for text */
+padding: 0.45rem 0.75rem;
+border-radius: 8px;
+text-decoration: none;
+font-weight: 600;
+box-shadow: 0 4px 10px rgba(0,0,0,0.35);
+transition: transform 140ms ease, opacity 140ms ease;
+opacity: 0.95;
+}
+.back-to-top:hover {
+transform: translateY(-3px);
+opacity: 1;
+}
+@media (max-width: 480px) {
+.back-to-top { right: 12px; bottom: 12px; padding: 0.4rem 0.6rem; font-size: 0.95rem; }
+}
+    
+    body { 
+      font-family: "Segoe UI", Arial, sans-serif;
+      color: #f5f5f5;
+      background: #2a2a2a url('https://raw.githubusercontent.com/yvanrussell/yvanrussell.github.io/main/random_grey_variations.webp') repeat;
+      background-size: 200px 200px;
+      text-align: left;
+      margin: 0;cv
+      padding: 1rem;
+      min-height: 100vh;
+    }
+    
+.handwritten-logo {
+  width: 500px !important;
+  height: 119px !important;      /* Exact match */
+  margin: 0 auto 1rem !important;
+  opacity: 0.85 !important;
+  display: block !important;
+  max-width: 85vw !important;    /* Phone scales down */
+  max-height: 150px !important;  /* Responsive safety */
+}
+    
+    .content-box {
+      max-width: 800px;
+      margin: 0 auto;
+      background: rgba(42,42,42,0.9);
+      padding: 2rem;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,0.1);
+      backdrop-filter: blur(10px);
+    }
+    
+    h1 { 
+      font-size: clamp(1.8rem, 5vw, 2.5rem); 
+      color: #ffffff; 
+      margin: 0 0 1rem; 
+    }
+    h3 { color: #f5f5f5; font-size: clamp(1.1rem, 3vw, 1.3rem); }
+    
+    a { color: #20B2AA; text-decoration: none; }
+    a:hover { color: #ffffff; }
+    
+    ul { list-style: none; padding: 0; margin: 1rem 0; }
+    
+    li { 
+      display: inline-block; 
+      margin: 0.25rem; 
+      background: rgba(74,85,104,0.8); 
+      padding: clamp(0.75rem, 2vw, 1rem) clamp(1rem, 3vw, 1.5rem); 
+      border-radius: 8px;
+      font-size: clamp(0.9rem, 2.5vw, 1rem);
+    }
+    
+    @media (min-width: 768px) {
+      body { padding: 2rem; }
+      li { margin: 0.5rem; }
+    }
+    
+    @media (max-width: 480px) {
+      .content-box { padding: 1.5rem 1rem; margin: 0.5rem; }
+      li { 
+        display: block; 
+        margin: 0.5rem auto; 
+        max-width: 280px;
+        width: 90%;
+      }
+    }
+    .bottom-spacer {
+height: 1600px; 
+width: 100%;
+}
+  </style>
+</head>
+
+<body><body id="top">
+  
+  <center></center><img src="yvanrs-handwritten.png" alt="yvan.rs" class="handwritten-logo"></center>
+  
+
+  
+  <div class="content-box">
+   <center> <h1>Dr. Yvan I. Russell</h1></center>
+    <center><h2>Publications by year</h2></center>
+
+      
+    <ul class="year-nav">
+      <li><a href="#year-2027">2027</a></li>
+      <li><a href="#year-2026">2026</a></li>
+      <li><a href="#year-2025">2025</a></li>
+      <li><a href="#year-2023">2023</a></li>
+      <li><a href="#year-2022">2022</a></li>
+      <li><a href="#year-2020">2020</a></li>
+      <li><a href="#year-2019">2019</a></li>
+      <li><a href="#year-2018">2018</a></li>
+      <li><a href="#year-2017">2017</a></li>
+      <li><a href="#year-2016">2016</a></li>
+      <li><a href="#year-2015">2015</a></li>
+      <li><a href="#year-2013">2013</a></li>
+      <li><a href="#year-2012">2012</a></li>
+      <li><a href="#year-2011">2011</a></li>
+      <li><a href="#year-2010">2010</a></li>
+      <li><a href="#year-2008">2008</a></li>
+         </ul>
+
+  <div class="pub-year" id="year-2027">
+      <h2>2027</h2>
+         <li class="pub-item">Russell, Y. I. (in press). Natural selection and adaptation. In M. L. Fisher, L. E. Adair, J. Byrd-Craven, T. E. Dickins, L. E. O. Kennair, & A. E. Wertz (Eds.). <i>APA Handbook of Evolutionary Psychology: Vol. 1. Foundations, Cognition, Family, and Group Living</i> (pp. 19-40). American Psychological Association. (<a href="https://doi.org/10.1037/0000475-002">DOI</a> not yet active).</a></li>
+      </ul>
+      </div>  
+
+      <div class="pub-year" id="year-2026">
+      <h2>2026</h2>
+       <ul class="pub-items">
+         <li class="pub-item">EVApeCognition project (109 authors, including Russell, Y. I.) (2026). EVApeCognition: An 18-year database reveals domain-specific characteristics in great ape cognition. <i>Scientific Data</i>. <a href="https://doi.org/10.1038/s41597-026-07191-6">DOI</a></li>
+      </ul>
+      </div>
+    
+
+    
+    <div class="pub-year" id="year-2025">
+      <h2>2025</h2>
+      <ul class="pub-items">
+        <li class="pub-item">Spencer, R., &amp; Russell Y. I. (2025). When words fail: Higher cooperation in the absence of communication in the prisoner’s dilemma. <i>Acta Psychologica</i>, <i>261</i>, 105983. <a href="https://doi.org/10.1016/j.actpsy.2025.105983">DOI</a></li>
+        <li class="pub-item">Phelps, S., &amp; Russell, Y. I. (2025). The machine psychology of cooperation: Can GPT models operationalize prompts for altruism, cooperation, competitiveness, and selfishness in economic games? <i>Journal of Physics: Complexity</i>, <i>6</i>, 015018. <a href="https://doi.org/10.1088/2632-072X/ada711">DOI</a></li>
+        <li class="pub-item">Spencer, R., Bonfrisco, M. &amp; Russell Y. I. (2025). Appropriation behaviour predicted by environmental uncertainty, but not social uncertainty, in a common pool resource game. <i>Journal of Evolutionary Economics</i>, <i>35</i>, 587-607. <a href="https://doi.org/10.1007/s00191-025-00904-x">DOI</a></li>
+        <li class="pub-item">Bonfrisco, M., Russell, Y. I., Broom, M. &amp; Spencer, R. (2025). Averting depletion in a two-player common pool resource game: Being seen, the expectation of future encounters, and biophilia play a role in cooperation. <i>Dynamic Games and Applications</i>, <i>15</i>, 1-27. <a href="https://doi.org/10.1007/s13235-024-00557-8">DOI</a></li>
+      </ul>
+    </div>
+
+    <div class="pub-year" id="year-2023">
+      <h2>2023</h2>
+      <ul class="pub-items">
+        <li class="pub-item">Phelps, S. &amp; Russell, Y. I. (2023). Investigating emergent goal-like behaviour in large language models using experimental economics. <i>arXiv</i> (pre-print), 2305.07970 [v2]</li>
+        <li class="pub-item">Russell, Y. I. (2023). Reflections on teaching primatology where it’s never been taught before. <i>Primate Eye</i>, <i>138</i>, 35-37. <a href="https://www.psgb.org/pages/70-primate-eye">Link</a></li>
+        <li class="pub-item">Rola, K. D. &amp; Russell, Y. I. (2023). Knowledge is an important aspect of COVID-19 vaccine hesitancy. <i>North American Journal of Psychology</i>, <i>25</i>, 865-878. <a href="https://doi.org/10.6084/m9.figshare.24517330">DOI</a></li>
+        <li class="pub-item">Weisz, S. R., &amp; Russell, Y. I. (2023). An observational study of race and gender homophily in nursery children. <i>North American Journal of Psychology</i>, <i>24</i>, 691-700. <a href="https://www.proquest.com/docview/2739203833/FD583B352C0E4DD7PQ">Link</a></li>
+      </ul>
+    
+    </div>
+
+    <div class="pub-year" id="year-2022">
+      <h2>2022</h2>
+      <ul class="pub-items">
+        <li class="pub-item">Gana, F. L., Saadee, F. &amp; Russell, Y. I. (2022). Gender differences in childhood anxiety in relation to school performance. <i>North American Journal of Psychology</i>, <i>24</i>, 291-296. <a href="https://www.proquest.com/docview/2661589673/2445BC34C504CD8PQ">Link</a></li>
+        <li class="pub-item">Russell, Y. I. (2022). Three problems of interdisciplinarity. <i>Avant: Trends in Interdisciplinary Studies</i>, <i>13</i>, 1-19. <a href="https://philarchive.org/archive/RUSTPO-95">Link</a></li>
+      </ul>
+    </div>
+
+    <div class="pub-year" id="year-2020">
+      <h2>2020</h2>
+      <ul class="pub-items">
+        <li class="pub-item">Russell, Y. I. (2020). Is identity-priming a short-cut to cooperation? A project report. <i>Rebuilding Macroeconomics Working Paper Series</i>, 18, 1-21. <a href="https://www.rebuildingmacroeconomics.ac.uk/identity-biasing">Link</a></li>
+        <li class="pub-item">Russell, Y. I., Stoilova, Y. &amp; Dosoftei, A.-A. (2020). Cooperation through Image Scoring: A Replication. <i></i>Games</i>, <i></i>11</i>, 58. <a href="https://doi.org/10.3390/g11040058">DOI</a></li>
+      </ul>
+    </div>
+
+    <div class="pub-year" id="year-2019">
+      <h2>2019</h2>
+      <ul class="pub-items">
+        <li class="pub-item">Russell, Y. I. (2019). Reputation. In J. Vonk &amp; T. K. Shackelford (Eds.). <i>Encyclopedia of Animal Cognition and Behavior</i> (pp. 5977-5984). Springer. <a href="https://doi.org/10.1007/978-3-319-47829-6_1884-2">DOI</a> (reprinted in 2022)</li>
+      </ul>
+    </div>
+
+    <div class="pub-year" id="year-2018">
+      <h2>2018</h2>
+      <ul class="pub-items">
+        <li class="pub-item">Phelps, S, Ng, W. L., Musolesi, M, &amp; Russell, Y. I. (2018). Precise time-matching in chimpanzee allogrooming does not occur after a short delay. <i>PLoS One</i>, <i><13</i>, e201810. <a href="https://doi.org/10.1371/journal.pone.0201810">DOI</a></li>
+        <li class="pub-item">Russell, Y. I. (2018). Allogrooming. In J. Vonk &amp; T. K. Shackelford (Eds.). <i>Encyclopedia of Animal Cognition and Behavior</i> (pp. 183-186). Springer. <a href="https://doi.org/10.1007/978-3-319-47829-6_724-1">DOI</a> (reprinted in 2022)</li>
+        <li class="pub-item">Russell, Y. I. (2018). Assemblage. In J. Vonk &amp; T. K. Shackelford (Eds.). <i>Encyclopedia of Animal Cognition and Behavior</i> (pp. 486-489). Springer. <a href="https://doi.org/10.1007/978-3-319-47829-6_718-1">DOI</a> (reprinted in 2022)</li>
+      </ul>
+    </div>
+
+    <div class="pub-year" id="year-2017">
+      <h2>2017</h2>
+      <ul class="pub-items">
+        <li class="pub-item">Spencer, R., Russell, Y. I., Dickins, B. J. A., &amp; Dickins, T. E. (2017). Kleptoparasitism in gulls (Laridae) at an urban and a coastal foraging environment: An assessment of ecological predictors. <i>Bird Study</i>, <i>64</i>, 12-19. <a href="https://doi.org/10.1080/00063657.2016.1249821">DOI</a></li>
+      </ul>
+    </div>
+
+    <div class="pub-year" id="year-2016">
+      <h2>2016</h2>
+      <ul class="pub-items">
+        <li class="pub-item">Russell, Y. I. (2016). Reciprocity and reputation: A review of direct and indirect social information gathering. <i>Journal of Mind and Behavior</i>, <i>37</i>, 247-270. <a href="https://www.jstor.org/stable/44631772">Link</a></li>
+        <li class="pub-item">Robertson, L. P., &amp; Russell, Y. I. (2016). Age and gender differences in smiling and laughter: The power asymmetry hypothesis retested. <i>Human Ethology Bulletin</i>, <i>31</i>, 5-14. <a href="https://doi.org/10.22330/heb/311/005014">DOI</a></li>
+        <li class="pub-item">Russell, Y. I., Gobet, F., &amp; Whitehouse, H. (2016). Mood, expertise, analogy, and ritual: an experiment using the five-disk Tower of Hanoi. Religion, Brain, &amp; Behavior, 6, 67-87. <a href="https://doi.org/10.1080/2153599X.2014.921861">DOI</a></li>
+      </ul>
+    </div>
+
+    <div class="pub-year" id="year-2015">
+      <h2>2015</h2>
+      <ul class="pub-items">
+        <li class="pub-item">Phelps, S. &amp; Russell, Y. I. (2015). Economic drivers of biological complexity. <i>Adaptive Behavior</i>, <i>23</i>, 315-326. <a href="https://doi.org/10.1177/1059712315593607">DOI</a></li>
+      </ul>
+    </div>
+
+    <div class="pub-year" id="year-2013">
+      <h2>2013</h2>
+      <ul class="pub-items">
+        <li class="pub-item">Russell, Y. I. &amp; Phelps, S. (2013). How do you measure pleasure? A discussion about intrinsic costs and benefits in primate allogrooming. <i>Biology &amp; Philosophy</i>, <i>28</i>, 1005-1020. <a href="https://doi.org/10.1007/s10539-013-9372-4">DOI</a></li>
+        <li class="pub-item">Russell, Y. I. &amp; Gobet, F. (2013). What is Counterintuitive? Religious cognition and natural expectation. <i>Review of Psychology and Philosophy</i>, <i>4</i>, 715-749. <a href="https://doi.org/10.1007/s13164-013-0160-5">DOI</a></li>
+        <li class="pub-item">Russell, Y. I. &amp; Gobet, F. (2013). Sinuosity and the affect grid: A method for adjusting repeated mood scores. <i>Perceptual and Motor Skills</i>, <i>114</i>, 125-136. <a href="https://doi.org/10.2466/03.28.PMS.114.1.125-136">DOI</a></li>
+      </ul>
+    </div>
+
+    <div class="pub-year" id="year-2012">
+      <h2>2012</h2>
+      <ul class="pub-items">
+        <li class="pub-item">Russell, Y. I., Dunbar, R. I. M., &amp; Gobet, F. (2012). Euphoria versus dysphoria: Differential cognitive roles in religion?. In S. Masmoudi, Dai, D. Y., &amp; Naceur, A. (Eds.). <i>Attention, representation, and human performance</i>. (pp. 147-165). Taylor &amp; Francis. <a href="https://philpapers.org/archive/RUSEVD-2.pdf">Link</a></li>
+      </ul>
+    </div>
+
+    <div class="pub-year" id="year-2011">
+      <h2>2011</h2>
+      <ul class="pub-items">
+        <li class="pub-item">Russell, Y. I. (2011). Prehistoric stone tools, chess expertise, and cognitive evolution: An experiment about recognizing features in flint debitage. <i>Journal of Evolutionary Psychology</i>, <i>9</i>, 249-269. <a href="https://doi.org/10.1556/jep.9.2011.3.3">DOI</a></li>
+      </ul>
+    </div>
+
+    <div class="pub-year" id="year-2010">
+      <h2>2010</h2>
+      <ul class="pub-items">
+        <li class="pub-item">Russell, Y. I. (2010). Third party grooming in a captive chimpanzee group. <i>Primates</i>, <i>51</i>, 78-82. <a href="https://doi.org/10.1007/s10329-009-0158-x">DOI</a></li>
+      </ul>
+    </div>
+
+    <div class="pub-year" id="year-2008">
+      <h2>2008</h2>
+      <ul class="pub-items">
+        <li class="pub-item">Russell, Y. I., Call, J., &amp; Dunbar, R. I. M. (2008). Image scoring in great apes. <i>Behavioural Processes</i>, <i>78</i>, 108-111. <a href="https://doi.org/10.1016/j.beproc.2007.10.009">DOI</a></li>
+      </ul>
+    </div>
+    <hr>
+<div class="bottom-links" style="margin-top:1.5rem;">
+  <a href="https://yvanrussell.github.io">Main page</a> |
+  <a href="https://app.box.com/s/cralgp2exfl7yyibl2mguk7mo1ddrvu4">CV</a> |
+  <a href="mailto:yvanrussell@gmail.com">Email</a> |
+  <a href="https://www.linkedin.com/in/yvanrussell/">LinkedIn</a> |
+  <a href="https://orcid.org/0000-0003-4608-4791">ORCiD</a>
+</div>
+  </div>
+  <div class="bottom-spacer" aria-hidden="true"></div>
+  <a href="#top" class="back-to-top" aria-label="Back to top">Top ↑</a>
+</body>
+</html>
