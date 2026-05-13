@@ -115,9 +115,9 @@ width: 100%;
 
       
     <ul class="year-nav">
-      <li><a href="#year-2027">2027</a></li>
-      <li><a href="#year-2026">2026</a></li>
-      <li><a href="#year-2025">2025</a></li>
+      <li><a href="#ev">Evolution</a></li>
+      <li><a href="#be">Behavioural Economics</a></li>
+      <li><a href="#ai">Artificial Intelligence</a></li>
       <li><a href="#year-2023">2023</a></li>
       <li><a href="#year-2022">2022</a></li>
       <li><a href="#year-2020">2020</a></li>
@@ -133,16 +133,19 @@ width: 100%;
       <li><a href="#year-2008">2008</a></li>
          </ul>
 
-  <div class="pub-year" id="year-2027">
-      <h2>2027</h2>
+  <div class="pub-year" id="ev">
+      <h2>Evolution</h2>
          <li class="pub-item">Russell, Y. I. (in press). Natural selection and adaptation. In M. L. Fisher, L. E. Adair, J. Byrd-Craven, T. E. Dickins, L. E. O. Kennair, & A. E. Wertz (Eds.). <i>APA Handbook of Evolutionary Psychology: Vol. 1. Foundations, Cognition, Family, and Group Living</i> (pp. 19-40). American Psychological Association. (<a href="https://doi.org/10.1037/0000475-002">DOI</a> not yet active).</a></li>
       </ul>
       </div>  
 
-      <div class="pub-year" id="year-2026">
-      <h2>2026</h2>
+      <div class="pub-year" id="be">
+      <h2>Behavioural Economics</h2>
        <ul class="pub-items">
-         <li class="pub-item">EVApeCognition project (109 authors, including Russell, Y. I.) (2026). EVApeCognition: An 18-year database reveals domain-specific characteristics in great ape cognition. <i>Scientific Data</i>. <a href="https://doi.org/10.1038/s41597-026-07191-6">DOI</a></li>
+        <li class="pub-item">Spencer, R., &amp; Russell Y. I. (2025). When words fail: Higher cooperation in the absence of communication in the prisoner’s dilemma. <i>Acta Psychologica</i>, <i>261</i>, 105983. <a href="https://doi.org/10.1016/j.actpsy.2025.105983">DOI</a></li>
+        <li class="pub-item">Phelps, S., &amp; Russell, Y. I. (2025). The machine psychology of cooperation: Can GPT models operationalize prompts for altruism, cooperation, competitiveness, and selfishness in economic games? <i>Journal of Physics: Complexity</i>, <i>6</i>, 015018. <a href="https://doi.org/10.1088/2632-072X/ada711">DOI</a></li>
+        <li class="pub-item">Spencer, R., Bonfrisco, M. &amp; Russell Y. I. (2025). Appropriation behaviour predicted by environmental uncertainty, but not social uncertainty, in a common pool resource game. <i>Journal of Evolutionary Economics</i>, <i>35</i>, 587-607. <a href="https://doi.org/10.1007/s00191-025-00904-x">DOI</a></li>
+        <li class="pub-item">Bonfrisco, M., Russell, Y. I., Broom, M. &amp; Spencer, R. (2025). Averting depletion in a two-player common pool resource game: Being seen, the expectation of future encounters, and biophilia play a role in cooperation. <i>Dynamic Games and Applications</i>, <i>15</i>, 1-27. <a href="https://doi.org/10.1007/s13235-024-00557-8">DOI</a></li>  
       </ul>
       </div>
     
@@ -150,12 +153,7 @@ width: 100%;
     
     <div class="pub-year" id="year-2025">
       <h2>2025</h2>
-      <ul class="pub-items">
-        <li class="pub-item">Spencer, R., &amp; Russell Y. I. (2025). When words fail: Higher cooperation in the absence of communication in the prisoner’s dilemma. <i>Acta Psychologica</i>, <i>261</i>, 105983. <a href="https://doi.org/10.1016/j.actpsy.2025.105983">DOI</a></li>
-        <li class="pub-item">Phelps, S., &amp; Russell, Y. I. (2025). The machine psychology of cooperation: Can GPT models operationalize prompts for altruism, cooperation, competitiveness, and selfishness in economic games? <i>Journal of Physics: Complexity</i>, <i>6</i>, 015018. <a href="https://doi.org/10.1088/2632-072X/ada711">DOI</a></li>
-        <li class="pub-item">Spencer, R., Bonfrisco, M. &amp; Russell Y. I. (2025). Appropriation behaviour predicted by environmental uncertainty, but not social uncertainty, in a common pool resource game. <i>Journal of Evolutionary Economics</i>, <i>35</i>, 587-607. <a href="https://doi.org/10.1007/s00191-025-00904-x">DOI</a></li>
-        <li class="pub-item">Bonfrisco, M., Russell, Y. I., Broom, M. &amp; Spencer, R. (2025). Averting depletion in a two-player common pool resource game: Being seen, the expectation of future encounters, and biophilia play a role in cooperation. <i>Dynamic Games and Applications</i>, <i>15</i>, 1-27. <a href="https://doi.org/10.1007/s13235-024-00557-8">DOI</a></li>
-      </ul>
+      <ul class="pub-items"> </ul>
     </div>
 
     <div class="pub-year" id="year-2023">
@@ -165,7 +163,11 @@ width: 100%;
         <li class="pub-item">Russell, Y. I. (2023). Reflections on teaching primatology where it’s never been taught before. <i>Primate Eye</i>, <i>138</i>, 35-37. <a href="https://www.psgb.org/pages/70-primate-eye">Link</a></li>
         <li class="pub-item">Rola, K. D. &amp; Russell, Y. I. (2023). Knowledge is an important aspect of COVID-19 vaccine hesitancy. <i>North American Journal of Psychology</i>, <i>25</i>, 865-878. <a href="https://doi.org/10.6084/m9.figshare.24517330">DOI</a></li>
         <li class="pub-item">Weisz, S. R., &amp; Russell, Y. I. (2023). An observational study of race and gender homophily in nursery children. <i>North American Journal of Psychology</i>, <i>24</i>, 691-700. <a href="https://www.proquest.com/docview/2739203833/FD583B352C0E4DD7PQ">Link</a></li>
-      </ul>
+      
+
+ <li class="pub-item">EVApeCognition project (109 authors, including Russell, Y. I.) (2026). EVApeCognition: An 18-year database reveals domain-specific characteristics in great ape cognition. <i>Scientific Data</i>. <a href="https://doi.org/10.1038/s41597-026-07191-6">DOI</a></li>
+
+</ul>
     
     </div>
 
